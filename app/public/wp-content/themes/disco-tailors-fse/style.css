@@ -1,0 +1,39 @@
+/*
+Theme Name: Disco Tailors FSE
+Theme URI: https://gracethemes.com/themes/free-tailor-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: Disco Tailors FSE is a free tailor WordPress theme enabling you to design a professional and visually captivating website without any coding knowledge. This theme is WordPress theme crafted for tailor shops, garments stores, clothes sellers, and others associated with the clothing industry. This multipurpose theme is also suitable for corporate, business, construction, hotel, restaurant, flower shop, travel and tour website, coaching, education, sports, medical, doctor, gym, fitness, modelling, wedding. This WordPress theme's versatility is unparalleled. This theme is cross-browser compatible and is compatible with some of the most popular browsers, such as Google Chrome, Yahoo, Safari, Mozilla Firefox, and others. Besides, Disco Tailors FSE is cross-device compatible. It means you can use this theme on any device, such as a tablet, laptop, and PC. Also, this theme has passed the Google mobile-friendly test. This WordPress theme is very easy to use. Also, this theme is SEO-optimized. It means you no longer need to worry about the rankings of your website. When you use this theme, without the help of any SEO expert, you can rank higher on the search engine results page. It improves the exposure of your website, hence, attracting maximum prospects to your business. Demo: https://gracethemesdemo.com/disco-tailors/
+Version: 1.1
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: disco-tailors-fse
+Requires PHP:  7.3
+Tested up to: 6.3
+Tags:blog, e-commerce, education, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+Disco Tailors FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2023.
+Disco Tailors FSE WordPress Theme is released under the terms of GNU GPL
+*/
+
+body.page-template-front .TDF-header, body.editor-styles-wrapper .TDF-header{ background:transparent; position: absolute !important; width:100%; top:auto !important; z-index:999;}
+.TDF-header{ background-color:#000;}
+.SF-Sidebar ul.latest-post li{ margin-bottom:25px !important; }
+.SF-Sidebar ul.latest-post li a.wp-block-latest-posts__post-title{ margin-bottom:10px !important; display:block;}
+ul.footer-post li{ margin-bottom:15px !important;}
+ul.footer-post li a.wp-block-latest-posts__post-title{ margin-bottom:5px !important; display:inline-block;}
+.cover-info{ margin-top:10%  !important}
+.DTF-Menubar{ background:rgba(69,56,49,0.6); border-top:1px solid #44403e;}
+.four-bx-thumb{ margin:0 auto !important;}
+.four-bx-thumb img{ box-shadow:0 10px 10px #ddd;}
+.Elwcu-bx{ box-shadow:0 0px 15px #e9e6e6; }
+ul.footer-latest-post li{ margin-bottom:20px !important}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ margin:30px 0 0;padding:0;}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ width:40%;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;color:#797979;margin-bottom:0;height:40px;padding:0 15px;}	
+.wpcf7 textarea{color:#797979;margin-bottom:25px;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;padding:10px;width:60%;	height:160px;font-size:12px;}
+.wpcf7 input[type="submit"]{border-radius:40px;font-weight:600;font-size:16px;cursor:pointer;background-color:#cc8a70;padding:20px 40px;color:#ffffff;width:auto;border:none;text-transform:uppercase;}
+.wpcf7 input[type="submit"]:hover{background-color:#222;}
